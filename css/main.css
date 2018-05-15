@@ -130,16 +130,16 @@ ul {
 	
 }
 
-#border-blue-about {
+/*#border-blue-about {
 	border: blue solid 4px;
 
 	
-}
+}*/
 
-#test {
+/*#test {
 	height: 80%;
 }
-
+*/
 .about-paragraph-text {
 	font-family: 'Josefin Sans', sans-serif;
 	color: black;
@@ -174,6 +174,32 @@ svg.svg-inline--fa.fa-angle-left.fa-w-8 {
 
 #back-arrow-row {
 	margin-top: 30px;
+}
+
+.about-blue-circle {
+	height: 110px;
+	width: 110px;
+	background: blue;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.about-red-square {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.about-yellow-square {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 65px 112.6px 65px;
+	border-color: transparent transparent yellow transparent;
+	display: inline-block;
 }
 
 a.social-links {
