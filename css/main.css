@@ -75,6 +75,21 @@ ul {
 	position: fixed;
 }
 
+.about-link {
+	display: inline;
+	margin-right: 18px;
+    float: right;
+    margin-top: -27px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.about-link:hover {
+	color: blue;
+	text-decoration: line-through;
+}
+
 .navbar-icon {
 	border-radius: 50%;
 	height: 30px;
@@ -105,4 +120,36 @@ ul {
 
 #day-one {
 
+}
+
+/*ABOUT PAGE*/
+
+#about-page {
+	height: 100%;
+	width: 100%;
+	
+}
+
+#border-blue-about {
+	border: blue solid 4px;
+
+	
+}
+
+#test {
+	height: 80%;
+}
+
+.about-paragraph-text {
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+}
+
+.red-alexa-link {
+	color: black;
+}
+
+.red-alexa-link:hover {
+	color: red;
+	text-decoration: line-through;
 }
