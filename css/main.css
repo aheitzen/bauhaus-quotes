@@ -1,3 +1,96 @@
 html, body {
-	background-color: pink;
+	height: 100%;
+	width: 100%;
+}
+
+#mega-wrap {
+	margin: 10px;
+}
+
+#hero {
+	height: 100%;
+	width: 100%;
+	border: solid 2px black;
+	background: linear-gradient(90deg, red 50%, white 50%);
+	z-index: 1;
+	position: relative;
+}
+
+.hero-header {
+	font-family: 'Muli', sans-serif;
+	color: black;
+	text-align: center;
+	
+}
+
+
+.hero-sub-header {
+	font-family: 'Muli', sans-serif;
+	color: black;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.bottom-nav {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+.blue-circle-main {
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+	border-radius: 50%;
+	align-items: center;
+	margin-top: 150px;
+	margin-left: 80px;
+	
+}
+
+.yellow-triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 150px 259.8px 150px;
+	border-color: transparent transparent yellow transparent;
+	margin-top: 112px;
+	float: right;
+}
+
+ul {
+	margin-top: 3px;
+}
+
+#navbar {
+	height: 45px;
+	border: 2px solid black;
+	width: 100%;
+	background-color: white;
+	z-index: 10;
+	position: fixed;
+}
+
+.navbar-icon {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	background-color: blue;
+	margin-top: 5.5px;
+}
+
+.font-links {
+	color: black;
+}
+
+.font-links:hover {
+	color: blue;
+}
+
+#day-one {
+
 }
