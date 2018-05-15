@@ -83,6 +83,18 @@ ul {
 	margin-top: 5.5px;
 }
 
+.navbar-icon:hover {
+	animation: colorchange 2s infinite;
+}
+
+ @keyframes colorchange {
+ 	0%   {background: blue;}
+ 	25%  {background: red;}
+    50%  {background: blue;}
+    75%  {background: yellow;}
+    100% {background: blue;}
+}
+
 .font-links {
 	color: black;
 }
