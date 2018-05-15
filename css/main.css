@@ -130,21 +130,23 @@ ul {
 	
 }
 
-/*#border-blue-about {
-	border: blue solid 4px;
+#border-blue-about {
+	display: flex;
+	align-items: center;
 
 	
-}*/
+}
 
-/*#test {
+#test {
 	height: 80%;
 }
-*/
+
 .about-paragraph-text {
 	font-family: 'Josefin Sans', sans-serif;
 	color: black;
 	margin-left: 70px;
 	margin-right: 70px;
+
 }
 
 .red-alexa-link {
@@ -159,11 +161,20 @@ ul {
 svg.svg-inline--fa.fa-angle-left.fa-w-8 {
 	color: red;
 	font-size: 30px;
+	margin-left: 20px;
+}
+
+svg.svg-inline--fa.fa-github.fa-w-16 {
+	margin-left: 0;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	margin-top: 15px;
 }
 
 .back-arrow {
 	margin-top: -29px;
-    margin-left: 30px;
+    margin-left: 50px;
     font-family: 'Josefin Sans', sans-serif;
     color: black;
 }
@@ -202,14 +213,20 @@ svg.svg-inline--fa.fa-angle-left.fa-w-8 {
 	display: inline-block;
 }
 
+#bauhaus-triad {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 a.social-links {
 	margin-left: 20px;
-	font-size: 30px;
+	font-size: 25px;
 	color: black;
 	text-align: center;
 }
 
-a.social-links:hover {
+svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	animation: colorchange2 2s infinite;
 }
 
