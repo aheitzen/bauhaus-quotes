@@ -1,1 +1,3 @@
-console.log("I work");
+$(document).ready(function() {
+	$('#multiscroll').multiscroll();
+});

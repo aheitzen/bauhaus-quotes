@@ -116,6 +116,7 @@ ul {
 
 .font-links:hover {
 	color: blue;
+	text-decoration: line-through;
 }
 
 #day-one {
