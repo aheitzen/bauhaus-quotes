@@ -20,7 +20,7 @@ html, body {
 	font-family: 'Muli', sans-serif;
 	color: black;
 	text-align: center;
-	
+	margin-bottom: .6em;
 }
 
 
@@ -38,7 +38,7 @@ html, body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	text-align: center;
-
+	margin-top: 1.2em;
 }
 
 .blue-circle-main {
@@ -237,6 +237,17 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
     50%  {color: blue;}
     75%  {color: yellow;}
     100% {color: blue;}
+}
+
+#hero-right {
+	background: white;
+	border: solid black 2px;
+}
+
+#hero-left {
+	background: red;
+	border-left: solid black 2px;
+	border-bottom: solid black 2px;
 }
 
 @media only screen 
