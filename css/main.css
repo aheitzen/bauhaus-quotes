@@ -77,10 +77,18 @@ ul {
 	display: inline;
 	margin-right: 18px;
     float: right;
-    margin-top: -27px;
+    margin-top: -22px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     color: black;
+}
+
+.center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
 }
 
 .about-link:hover {
@@ -93,7 +101,7 @@ ul {
 	height: 30px;
 	width: 30px;
 	background-color: blue;
-	margin-top: 5.5px;
+	margin-top: 7.5px;
 }
 
 .navbar-icon:hover {
