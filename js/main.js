@@ -3,8 +3,7 @@ $(document).ready(function() {
 	navigation: true,
 	anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 	menu: '#myMenu',
-	verticalCentered : false,
-	keyboardScrolling: true
+	verticalCentered : false
 
 	});
 });
