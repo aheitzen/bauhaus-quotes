@@ -17,6 +17,7 @@ html, body {
 	font-family: 'Cabin', sans-serif;
 	letter-spacing: 1px;
 	font-size: 20px;
+	font-weight: 100;
 }
 
 .bottom-nav {
@@ -120,11 +121,13 @@ ul {
 
 #day-one-left {
 	border-left: solid 2px black;
+	background: blue;
 }
 
 #day-one-right {
 	border: solid 2px black;
 }
+
 
 .day-one-body {
 	font-family: 'Roboto', sans-serif;
@@ -170,6 +173,16 @@ ul {
 	font-size: 16px;
 	text-align: center;
 	margin-top: 1.2em;
+}
+
+/*DAY 2*/
+
+#day-two-left {
+	border-left: solid 2px black;
+}
+
+#day-two-right {
+	border: solid 2px black;
 }
 
 /*ABOUT PAGE*/
