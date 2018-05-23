@@ -426,6 +426,56 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	}
   }
 
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 513px) {
+  	#hero-right {
+		background-color: red;
+		border: none;
+	}
+	.blue-circle-main {
+		display: none;
+	}
+	.yellow-triangle {
+		display: none;
+	}
+	h1.hero-header.align-center {
+		font-size: 37px;
+	}
+	h2.hero-sub-header {
+		font-size: 20px;
+	}
+}
+
+@media only screen 
+  and (min-width: 514px) 
+  and (max-width: 838px) {
+  	/*#hero-right {
+		background-color: red;
+		border: none;
+	}*/
+	.blue-circle-main {
+		height: 170px;
+		width: 170px;
+		
+	}
+	.yellow-triangle {
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 100px 173.2px 100px;
+		border-color: transparent transparent yellow transparent;
+		margin-right: 30px;
+	}
+	h1.hero-header.align-center {
+		font-size: 37px;
+	}
+	h2.hero-sub-header {
+		font-size: 20px;
+	}
+}
+
+
   @media only screen 
   and (min-width: 641px) 
   and (max-width: 868px) {
@@ -447,4 +497,5 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 
 
   }
+
 
