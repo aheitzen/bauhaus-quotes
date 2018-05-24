@@ -208,7 +208,7 @@ ul {
 
 .my-grid-2 {
 	display: grid;
-  grid-template: repeat(3, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
+  	grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(2, [col] 1fr);
     grid-gap: 20px;
 }
 
@@ -254,7 +254,7 @@ ul {
 .day-two-body {
 	font-family: 'Esteban', serif;
 	font-size: 24px;
-    color: red;
+    color: black;
     margin: 10px;
     padding-left: 7px;
     padding-right: 4px;
@@ -266,33 +266,18 @@ ul {
 }
 
 .day-two-blue-rectangle {
-	/*background: blue;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    position: relative;
-    z-index: 0;*/
-     grid-column: col 1 / span 4;
-  grid-row: row 1;
-  background: linear-gradient(to left, #6441a5, #2a0845);
-	/*width: 24%;
-	height: 826px;
-	margin-top: -12em;
-  	position: relative;
-  	z-index: 2;
-  	opacity: 0.7;*/
+    grid-column: col 1 / span 4;
+  	grid-row: row 1;
+  	height: 40px;
+  	height: 186px;
+  	background: blue;
 }
 
 .day-two-red-rectangle {
-	/*background: red;
-	grid-row-start: 1;
-    grid-row-end: 7;
-    opacity: 0.7;
-    position: relative;
-    z-index: 1;*/
-     grid-column: col 4;
-  grid-row: row 1 / span 3;
-  background: linear-gradient(to right, #ffb347, #ffcc33);
-  opacity: 0.8;
+     grid-column: col 1;
+  grid-row: row 1 / span 7;
+  background: red;
+  opacity: 0.7;
 	/*width: 100%;
 	height: 12em;
   	position: relative;
@@ -302,7 +287,7 @@ ul {
 }
 
 .text-box {
-	height: 350px;
+	height: 315px;
 	width: 350px;
 	
 	display: flex;
