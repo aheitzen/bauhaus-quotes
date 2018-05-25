@@ -248,7 +248,7 @@ ul {
 #day-two-right {
 	border: solid 2px black;
 	border-right: 0;
-	background: linear-gradient(50deg, blue 40%, white 10%)
+	background: linear-gradient(50deg, white 57%, yellow 10%);
 }
 
 .day-two-body {
@@ -274,14 +274,10 @@ ul {
 }
 
 .day-two-red-rectangle {
-     grid-column: col 1;
-  grid-row: row 1 / span 7;
-  background: red;
-  opacity: 0.7;
-	/*width: 100%;
-	height: 12em;
-  	position: relative;
-  	z-index: 1;*/
+    grid-column: col 1;
+  	grid-row: row 1 / span 7;
+  	background: red;
+  	opacity: 0.8;
   	
 
 }
@@ -294,6 +290,23 @@ ul {
     justify-content: center;
     flex-direction: column;
     border: yellow 4px solid;
+}
+
+.day-two-large-red-circle {
+	background: red;
+	border-radius: 50%;
+	height: 20em;
+	width: 20em;
+	opacity: 0.8;
+}
+
+
+.day-two-sm-blue-circle {
+	background: blue;
+	border-radius: 50%;
+	height: 10em;
+	width: 10em;
+
 }
 
 /*.grid-test-2 {
@@ -591,5 +604,32 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 
 
   }
+
+   @media only screen 
+  and (min-width: 400px) 
+  and (max-width: 810px) {
+  	#day-two-right {
+  		border: none;
+  		background: yellow;
+  	}
+  	.day-two-large-red-circle {
+  		display: none;
+  	}
+  	.day-two-sm-blue-circle {
+  		display: none;
+	}
+	.text-box {
+		width: 143px;
+	}
+	.day-two-body {
+		font-size: 16px;
+	}
+	.day-two-atr {
+		font-size: 10px;
+	}
+
+
+  }
+
 
 
