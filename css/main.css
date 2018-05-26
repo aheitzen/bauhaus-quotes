@@ -524,10 +524,6 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 
 /*DAY FOUR*/
 
-#day-four-right {
-
-}
-
 #day-four-left {
 	border: 2px black solid;
 	background: linear-gradient(10deg, red 80%, red  20%); /*rgba(255, 255, 0, 0.8)*/
@@ -627,6 +623,42 @@ background:  blue;
 #day-five-left {
 
 }
+
+.day-five-body {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 20px;
+}
+
+.day-five-atr {
+	font-family: 'Song Myung', serif;
+	text-align: center;
+}
+
+.z-index-day-five {
+	position: relative;
+	z-index: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.big-yellow-circle {
+	border-radius: 50%;
+	background: yellow;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	z-index: 0;
+}
+
+
+
+
 	
  
 @keyframes MoveUpDown {
