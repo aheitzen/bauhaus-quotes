@@ -692,7 +692,7 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 
 #day-four-left {
 	border: 2px black solid;
-	background: linear-gradient(10deg, red 80%, white  20%); /*rgba(255, 255, 0, 0.8)*/
+	background: linear-gradient(10deg, red 80%, red  20%); /*rgba(255, 255, 0, 0.8)*/
 
 }
 
@@ -700,18 +700,28 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	font-family: 'Exo', sans-serif;
 	font-size: 50px;
 	text-align: center;
-	color:  #ff6666;
-	-webkit-text-stroke: .8px black;
+	color: #ff6666;
+	-webkit-text-stroke: 1px black;
 }
 
 .day-four-atr {
 	font-family: 'PT Serif', serif;
 	color:  black;
 	font-size: 18px;
+	text-align: center;
 }
 
 .day-four-span {
 	color:  #ff1a1a;
+	-webkit-text-stroke: 1px black;
+
+}
+
+.day-four-text-box {
+	border: black 1px solid;
+	outline: 2px solid #ff6666;
+    outline-offset: 15px;
+    padding: 20px;
 }
 	
  
