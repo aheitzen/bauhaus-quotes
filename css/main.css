@@ -598,7 +598,8 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 #day-three-right {
  	border: solid 2px black;
 	border-right: 0;
-	background: blue;
+	background: linear-gradient(90deg, blue 80%, rgba(255, 0, 0, 0.8) 20%);
+
  }
 
  #day-three-left {
@@ -616,7 +617,6 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
  	font-family: 'Raleway', sans-serif;
  	font-size: 40px;
  	transform: rotate(90deg);
-    /*float: right;*/
     margin-top: 200px;
  }
 
