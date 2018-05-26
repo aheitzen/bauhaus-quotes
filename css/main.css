@@ -593,6 +593,25 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 
   }
 
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 1440px) {
+  	.grid-day-three {
+  		margin-top: 0;
+  	}
+  }
+
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 1056px) {
+  	.day-three-yellow-box {
+  		display: none;
+  	}
+  	.day-three-body {
+  		font-size: 36px;
+  	}
+  }
+
  /*DAY THREE*/
 
 #day-three-right {
@@ -663,6 +682,36 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	background: blue;
 	-webkit-animation: rotation 40s infinite linear;
 	opacity: 0.8;
+}
+
+/*DAY FOUR*/
+
+#day-four-right {
+
+}
+
+#day-four-left {
+	border: 2px black solid;
+	background: linear-gradient(10deg, red 80%, white  20%); /*rgba(255, 255, 0, 0.8)*/
+
+}
+
+.day-four-body {
+	font-family: 'Exo', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:  #ff6666;
+	-webkit-text-stroke: .8px black;
+}
+
+.day-four-atr {
+	font-family: 'PT Serif', serif;
+	color:  black;
+	font-size: 18px;
+}
+
+.day-four-span {
+	color:  #ff1a1a;
 }
 	
  
