@@ -605,12 +605,14 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
  #day-three-left {
  	border: solid 2px black;
 	border-right: 0;
+	background: linear-gradient(180deg, white 80%, red 20%);
  }
 
  .day-three-atr {
 	font-family: 'Libre Baskerville', serif;
 	transform: rotate(90deg);
 	margin-right: 140px;
+	color: white;
  }
 
  .day-three-body {
@@ -618,10 +620,11 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
  	font-size: 40px;
  	transform: rotate(90deg);
     margin-top: 200px;
+    color: white;
  }
 
  .day-three-type {
-	color: black;
+	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	text-align: center;
@@ -631,7 +634,7 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
  }
 
  .font-links-three {
- 	color: black;
+ 	color: white;
  }
 
  .font-links-three:hover {
@@ -639,12 +642,29 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	text-decoration: line-through;
  }
 
+ .grid-day-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 120px;
+}
 
+.day-three-yellow-box {
+	height: 100px;
+	width: 100px;
+	background: yellow;
+	-webkit-animation: rotation 15s infinite linear;
+	opacity: 0.7;
+}
 
-/*.day-three-horizontal-text {
-	transform: rotate(180deg);
-    transform-origin: left bottom 0;
-}*/
+.day-three-blue-box {
+	height: 100px;
+	width: 100px;
+	background: blue;
+	-webkit-animation: rotation 40s infinite linear;
+	opacity: 0.8;
+}
+	
  
 @keyframes MoveUpDown {
     0% {
@@ -670,6 +690,14 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
     }
 }
 
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
 
 
 
