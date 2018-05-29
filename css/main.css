@@ -455,31 +455,50 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 #day-three-right {
  	border: solid 2px black;
 	border-right: 0;
-	background: linear-gradient(90deg, blue 80%, rgba(255, 0, 0, 0.8) 20%);
-
+	/*background: linear-gradient(140deg, white 70%, red 5%);*/
  }
 
  #day-three-left {
  	border: solid 2px black;
 	border-right: 0;
-	background: linear-gradient(180deg, white 80%, red 20%);
+	background: linear-gradient(-23deg, white 70%, blue 5%);
  }
 
  .day-three-atr {
 	font-family: 'Libre Baskerville', serif;
-	transform: rotate(90deg);
-	margin-right: 140px;
-	color: white;
+	text-align: center;
  }
 
  .day-three-body {
  	font-family: 'Raleway', sans-serif;
- 	font-size: 40px;
- 	transform: rotate(90deg);
-    margin-top: 200px;
-    color: white;
+ 	font-size: 30px;
+ 	/*transform: rotate(90deg);*/
+    /*margin-top: 200px;*/
+    color: blue;
  }
 
+ .yellow-circle-three-small {
+ 	
+    background: yellow;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 0;
+    -webkit-animation: rotation 15s infinite linear;
+ }
+
+.day-three-z-index {
+	    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 30%;*/
+    flex-direction: column;
+    
+    border: solid red 2px;
+    padding: 34px;
+}
  .day-three-type {
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
@@ -500,10 +519,35 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
  }
 
  .grid-day-three {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    margin: 120px;
+   display: grid;
+    grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
+    grid-gap: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+
+.day-three-red-stripe {
+	    grid-column: col 4;
+    grid-row: row 1 / span 4;
+    background: red;
+    opacity: 0.8;
+    position: relative;
+    z-index: 0;
+    position: relative;
+    z-index: 2;
+    /* margin-right: 15px; */
+
+}
+
+.day-three-yellow-stripe {
+	    grid-column: col 1 / span 4;
+    grid-row: row 4;
+    height: 192px;
+    background: yellow;
+    position: relative;
+    z-index: 1;
+
 }
 
 .day-three-yellow-box {
@@ -512,6 +556,8 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	background: yellow;
 	-webkit-animation: rotation 15s infinite linear;
 	opacity: 0.7;
+	position: relative;
+    z-index: 1;
 }
 
 .day-three-blue-box {
@@ -520,6 +566,8 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	background: blue;
 	-webkit-animation: rotation 40s infinite linear;
 	opacity: 0.8;
+	position: relative;
+    z-index: 1;
 }
 
 /*DAY FOUR*/
