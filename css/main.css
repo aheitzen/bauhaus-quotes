@@ -576,7 +576,7 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 #day-four-left {
 	border: 2px black solid;
 	background-color: red;
-	
+
 
 }
 
@@ -673,14 +673,13 @@ background:  blue;
 }
 
 .day-four-yellow-column {
-	    background: yellow;
+	background: yellow;
     grid-column: col 4;
     grid-row: row -6 / span 6;
 }
 
 .day-four-yellow-opaque-column {
-	    background: white;
-    /* opacity: 0.5; */
+	background: white;
     grid-column: col 1;
     grid-row: row 3 / span 3;
 }
@@ -688,11 +687,6 @@ background:  blue;
 
 #day-five-right {
 	border: solid 2px black;
-}
-
-#day-five-left {
-
-
 }
 
 .day-five-body {
@@ -735,7 +729,7 @@ background:  blue;
 
   .day-five-red-rectangle {
   	grid-column: col 1;
-  	grid-row: row 1 / span 7;
+  	grid-row: row 1 / span 4;
   	background: blue;
   	opacity: 0.8;
   	position: relative;
@@ -764,15 +758,29 @@ background:  blue;
 
   .day-five-light-blue-rectangle {
   	grid-column: col 4;
-  	grid-row: row 1 / span 7;
+  	grid-row: row 1 / span 4;
   	background: red;
   	opacity: 0.8;
   	position: relative;
   	z-index: 0;
   	position: relative;
   	z-index: 2;
-  	/*margin-right: 15px;*/
   }
+
+/*DAY SIX*/
+
+#day-six-left {
+	border: black 2px solid;
+
+}
+
+#day-six-right {
+	/*border: black 2px solid;*/
+}
+
+.day-six-yellow-border {
+	border: yellow solid 2px;
+}
 
 
 
