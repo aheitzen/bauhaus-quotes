@@ -769,17 +769,40 @@ background:  blue;
 
 /*DAY SIX*/
 
+/*font-family: 'Noto Serif', serif;
+font-family: 'Raleway Dots', cursive;*/
+
 #day-six-left {
 	border: black 2px solid;
 
 }
 
 #day-six-right {
-	/*border: black 2px solid;*/
+	
 }
 
 .day-six-yellow-border {
 	border: yellow solid 2px;
+	height: 310px;
+	width: 310px;
+	padding: 40px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+
+.day-six-body {
+	font-family: 'Raleway Dots', cursive;
+	font-size: 20px;
+	text-align: center;
+}
+
+.day-six-atr {
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	font-weight: 100;
 }
 
 
