@@ -785,12 +785,22 @@ font-family: 'Raleway Dots', cursive;*/
 	border: yellow solid 2px;
 	height: 310px;
 	width: 310px;
-	padding: 40px;
+	padding: 15px;
 	display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: white;
+    margin: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.bottom-right {
+	display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .day-six-body {
@@ -805,7 +815,50 @@ font-family: 'Raleway Dots', cursive;*/
 	font-weight: 100;
 }
 
+.day-six-red-circle {
+	background-color: red;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin: 20px;
+}
 
+.day-six-yellow-circle {
+	background-color: yellow;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.day-six-blue-circle {
+	background-color: blue;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.day-six-yellow-rectangle {
+	grid-column: col 2;
+    grid-row: row 1 / span 3;
+    background: yellow;
+    opacity: 0.8;
+}
+
+.day-six-red-rectangle {
+
+    grid-column: col 1;
+    grid-row: row 1 / span 1;
+    background: red;
+    opacity: 0.8;
+}
+
+.grid-six {
+	    display: grid;
+    grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(2, [col] 1fr);
+}
+   
 
 
 
