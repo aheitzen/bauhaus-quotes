@@ -955,6 +955,24 @@ font-family: 'Raleway Dots', cursive;*/
     -webkit-animation-direction: linear;
 }
 
+/*DAY EIGHT*/
+
+#day-eight-left {
+	border: solid black 2px;
+}
+
+.day-eight-body {
+	
+	font-family: 'Cantarell', sans-serif;
+}
+
+.day-eight-atr {
+	font-family: 'Cardo', serif;
+}
+
+
+
+
 @-webkit-keyframes flash {
       0% { opacity: 1; }
      49% { opacity: 1; }
@@ -962,12 +980,6 @@ font-family: 'Raleway Dots', cursive;*/
     100% { opacity: 0; }
 }
 
-
-
-
-
-	
- 
 @keyframes MoveUpDown {
     0% {
         transform: translate(0px, 0px) rotateX(0deg) rotateY(0deg);
