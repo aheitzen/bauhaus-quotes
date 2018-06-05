@@ -961,14 +961,54 @@ font-family: 'Raleway Dots', cursive;*/
 	border: solid black 2px;
 }
 
+#day-eight-right {
+	background: linear-gradient(180deg, red 50%, yellow 50%);   
+}
 .day-eight-body {
-	
+	font-size: 35px;
 	font-family: 'Cantarell', sans-serif;
+	text-align: right;
+	margin: 50px;
 }
 
 .day-eight-atr {
 	font-family: 'Cardo', serif;
+	font-size: 20px;
+	margin: 30px;
+	text-align: center;
 }
+
+#day-eight-rotate-span {
+	transform: rotate(90deg);
+}
+
+#day-eight-upper-left-red {
+	background-color: red;
+	height: 500px;
+	width: 500px;
+}
+
+#day-eight-upper-left-blue {
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+}
+
+#day-eight-yellow-brick {
+	background-color: yellow;
+	height: 500px;
+	width: 200px;
+}
+
+#white-eight {
+	background-color: white;
+	margin: 150px;
+}
+
+#day-eight-type {
+	margin-bottom: 50px;
+}
+/*border: black solid 2px;*/
 
 
 
