@@ -29,7 +29,6 @@ html, body {
 	margin-top: 1.2em;
 }
 
-
 .blue-circle-main {
 	height: 300px;
 	width: 300px;
@@ -110,7 +109,7 @@ ul {
 	animation: colorchange 2s infinite;
 }
 
- @keyframes colorchange {
+@keyframes colorchange {
  	0%   {background: blue;}
  	25%  {background: red;}
     50%  {background: blue;}
@@ -139,7 +138,6 @@ ul {
 	border-right: none;
 	background: red;
 }
-
 
 .day-one-body {
 	font-family: 'Roboto', sans-serif;
@@ -281,14 +279,12 @@ ul {
 	animation: MoveUpDown 3s ease-in infinite;
 }
 
-
 .day-two-sm-blue-circle {
 	background: blue;
 	border-radius: 50%;
 	height: 10em;
 	width: 10em;
 	animation: MoveUpDownReverse 3s ease-in infinite;
-
 }
 
 .opaque-blue-row {
@@ -298,7 +294,6 @@ ul {
 	height: 30%;
   	position: relative;
   	z-index: 2;
-  	
 }
 
 .yellow-column-2 {
@@ -339,7 +334,6 @@ ul {
 #about-page {
 	height: 100%;
 	width: 100%;
-	
 }
 
 #border-blue-about {
@@ -447,60 +441,51 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
     100% {color: blue;}
 }
 
-
-
-
- /*DAY THREE*/
+/*DAY THREE*/
 
 #day-three-right {
  	border: solid 2px black;
 	border-right: 0;
-	/*background: linear-gradient(140deg, white 70%, red 5%);*/
- }
+}
 
- #day-three-left {
+#day-three-left {
  	border: solid 2px black;
 	border-right: 0;
 	background: linear-gradient(-23deg, white 70%, blue 5%);
- }
+}
 
- .day-three-atr {
+.day-three-atr {
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
- }
+}
 
- .day-three-body {
+.day-three-body {
  	font-family: 'Raleway', sans-serif;
  	font-size: 30px;
- 	/*transform: rotate(90deg);*/
-    /*margin-top: 200px;*/
     color: blue;
- }
+}
 
- .yellow-circle-three-small {
- 	
-    background: yellow;
+.yellow-circle-three-small {
+ 	background: yellow;
     height: 50px;
     width: 50px;
     position: relative;
     z-index: 0;
     -webkit-animation: rotation 15s infinite linear;
- }
+}
 
 .day-three-z-index {
-	    position: relative;
+	position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 30%;*/
     flex-direction: column;
-    
     border: solid red 2px;
     padding: 40px;
-
 }
- .day-three-type {
+
+.day-three-type {
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
@@ -508,18 +493,18 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	transform: rotate(90deg);
 	margin-right: 240px;
 	margin-top: 2em;
- }
+}
 
- .font-links-three {
+.font-links-three {
  	color: white;
- }
+}
 
- .font-links-three:hover {
+.font-links-three:hover {
  	color: red;
 	text-decoration: line-through;
- }
+}
 
- .grid-day-three {
+.grid-day-three {
    display: grid;
     grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
     grid-gap: 20px;
@@ -527,9 +512,8 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
     z-index: 0;
 }
 
-
 .day-three-red-stripe {
-	    grid-column: col 4;
+	grid-column: col 4;
     grid-row: row 1 / span 4;
     background: red;
     opacity: 0.8;
@@ -537,18 +521,15 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
     z-index: 0;
     position: relative;
     z-index: 2;
-    /* margin-right: 15px; */
-
 }
 
 .day-three-yellow-stripe {
-	    grid-column: col 1 / span 4;
+	grid-column: col 1 / span 4;
     grid-row: row 4;
     height: 192px;
     background: yellow;
     position: relative;
     z-index: 1;
-
 }
 
 .day-three-yellow-box {
@@ -576,13 +557,10 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 #day-four-left {
 	border: 2px black solid;
 	background-color: red;
-
-
 }
 
 #day-four-right {
 	background-color: blue;
-
 }
 
 .day-four-body {
@@ -603,7 +581,6 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 .day-four-span {
 	color:  #ff1a1a;
 	-webkit-text-stroke: 1px black;
-
 }
 
 .day-four-text-box {
@@ -622,11 +599,10 @@ svg.svg-inline--fa.fa-github.fa-w-16:hover, a.social-links:hover {
 	background:  blue;
 	grid-column: col 1;
     grid-row: row 1 / span 7;
-
 }
 
 #four-row-2 {
-background:  blue;
+	background:  blue;
 	grid-column: col 3;
     grid-row: row 1 / span 7;
 }
@@ -635,14 +611,12 @@ background:  blue;
 	background:  blue;
 	grid-column: col 5;
     grid-row: row 1 / span 7;
-
 }
 
 .day-four-pink-column {
 	background: #ff6666;
 	grid-column: col 6;
     grid-row: row 1 / span 7;
-
 }
 
 #four-row-4 {
@@ -655,21 +629,18 @@ background:  blue;
 	background: red;
 	grid-column: col 8;
     grid-row: row 1 / span 6;
-        
 }
 
 #four-row-6 {
 	background: red;
 	grid-column: col 9;
     grid-row: row 1 / span 6;
-        
 }
 
 #four-row-7 {
 	background: red;
 	grid-column: col 10;
     grid-row: row 1 / span 6;
-        
 }
 
 .day-four-yellow-column {
@@ -683,6 +654,7 @@ background:  blue;
     grid-column: col 1;
     grid-row: row 3 / span 3;
 }
+
 /*DAY FIVE*/
 
 #day-five-right {
@@ -725,27 +697,26 @@ background:  blue;
     display: grid;
     grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
     grid-gap: 20px;
-  }
+}
 
-  .day-five-red-rectangle {
-  	grid-column: col 1;
+.day-five-red-rectangle {
+	grid-column: col 1;
   	grid-row: row 1 / span 4;
   	background: blue;
   	opacity: 0.8;
   	position: relative;
   	z-index: 0;
+}
 
-  }
-
-  .day-five-blue-rectangle {
+.day-five-blue-rectangle {
   	grid-column: col 1 / span 4;
     grid-row: row 1;
     height: 40px;
     height: 186px;
     background: red;
-  }
+}
 
-  .day-five-yellow-rectangle {
+.day-five-yellow-rectangle {
   	grid-column: col 1 / span 4;
     grid-row: row 4;
     height: 192px;
@@ -753,10 +724,9 @@ background:  blue;
     position: relative;
     z-index: 1;
     opacity: 0.7;
+}
 
-  }
-
-  .day-five-light-blue-rectangle {
+.day-five-light-blue-rectangle {
   	grid-column: col 4;
   	grid-row: row 1 / span 4;
   	background: red;
@@ -765,23 +735,13 @@ background:  blue;
   	z-index: 0;
   	position: relative;
   	z-index: 2;
-  }
+}
 
 /*DAY SIX*/
 
-/*font-family: 'Noto Serif', serif;
-font-family: 'Raleway Dots', cursive;*/
-
-#day-six-left {
-	/*border: black 2px solid;*/
-
-}
-
 #day-six-right {
-	
 	border: black 2px solid;
 	background: linear-gradient(180deg, white 89%, black 20%);
-	
 }
 
 .day-six-yellow-border {
@@ -858,7 +818,7 @@ font-family: 'Raleway Dots', cursive;*/
 }
 
 .grid-six {
-	    display: grid;
+	display: grid;
     grid-template: repeat(6, [row] minmax(120px, 1fr)) / repeat(2, [col] 1fr);
 }
 
@@ -880,7 +840,6 @@ font-family: 'Raleway Dots', cursive;*/
 	font-family: 'Tinos', serif;
 	font-size: 20px;
 	margin-top: -35px;
-
 }
 
 .grid-seven {
@@ -899,8 +858,6 @@ font-family: 'Raleway Dots', cursive;*/
 	width: 100px;
 	border-radius: 50%;
 	margin: 10px;
-	
-	
 }
 
 .day-seven-red-circle {
@@ -931,7 +888,6 @@ font-family: 'Raleway Dots', cursive;*/
     -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: linear;
-
 }
 
 #day-seven-red-animation {
@@ -965,6 +921,7 @@ font-family: 'Raleway Dots', cursive;*/
 #day-eight-right {
 	background: linear-gradient(180deg, red 50%, yellow 50%);   
 }
+
 .day-eight-body {
 	font-size: 35px;
 	font-family: 'Cantarell', sans-serif;
@@ -974,7 +931,6 @@ font-family: 'Raleway Dots', cursive;*/
 
 .day-eight-atr {
 	font-family: 'Cardo', serif;
-	
 	margin: 30px;
 	margin-top: -10px;
 	text-align: center;
@@ -1054,12 +1010,11 @@ font-family: 'Raleway Dots', cursive;*/
 
 .day-nine-yellow-triangle {
 	width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 175px 303.1px 175px;
-border-color: transparent transparent yellow transparent;
+	height: 0;
+	border-style: solid;
+	border-width: 0 175px 303.1px 175px;
+	border-color: transparent transparent yellow transparent;
     margin-bottom: -210px;
-
 }
 
 .grid-nine {
@@ -1094,14 +1049,6 @@ border-color: transparent transparent yellow transparent;
 	margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-
 /*DAY TEN*/ 
 
 #day-ten-left {
@@ -1133,15 +1080,10 @@ border-color: transparent transparent yellow transparent;
 	margin-top: 60px;
 }
 
-
-
-
-
-
 @-webkit-keyframes flash {
-      0% { opacity: 1; }
-     49% { opacity: 1; }
-     50% { opacity: 0; }
+    0% { opacity: 1; }
+   	49% { opacity: 1; }
+    50% { opacity: 0; }
     100% { opacity: 0; }
 }
 
@@ -1157,7 +1099,7 @@ border-color: transparent transparent yellow transparent;
     }
 }
 
- @keyframes MoveUpDownReverse {
+@keyframes MoveUpDownReverse {
     0% {
         transform: translate(-5px, -5px) rotateX(3deg) rotateY(3deg);
     }
@@ -1198,7 +1140,7 @@ border-color: transparent transparent yellow transparent;
 		border-width: 0 50px 86.6px 50px;
 		border-color: transparent transparent yellow transparent;
 	}
-  }
+}
 
 @media only screen 
   and (min-width: 400px) 
@@ -1227,7 +1169,6 @@ border-color: transparent transparent yellow transparent;
 	.blue-circle-main {
 		height: 170px;
 		width: 170px;
-
 	}
 	.yellow-triangle {
 		width: 0;
@@ -1276,7 +1217,7 @@ border-color: transparent transparent yellow transparent;
 	}
 }
 
-  @media only screen 
+@media only screen 
   and (min-width: 641px) 
   and (max-width: 868px) {
   	.about-blue-circle {
@@ -1294,11 +1235,9 @@ border-color: transparent transparent yellow transparent;
 		border-width: 0 35px 60.6px 35px;
 		border-color: transparent transparent yellow transparent;
 	}
+}
 
-
-  }
-
-   @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 810px) {
   	#day-two-right {
@@ -1320,9 +1259,7 @@ border-color: transparent transparent yellow transparent;
 	.day-two-atr {
 		font-size: 10px;
 	}
-
-
-  }
+}
 
 @media only screen 
   and (min-width: 400px) 
@@ -1330,7 +1267,7 @@ border-color: transparent transparent yellow transparent;
   	.grid-day-three {
   		margin-top: 0;
   	}
-  }
+}
 
 @media only screen 
   and (min-width: 400px) 
@@ -1341,9 +1278,9 @@ border-color: transparent transparent yellow transparent;
   	.day-three-body {
   		font-size: 36px;
   	}
-  }
+}
 
-  @media only screen 
+@media only screen 
   and (min-width: 780px) 
   and (max-width: 1170px) {
   	.day-four-text-box {
@@ -1353,10 +1290,10 @@ border-color: transparent transparent yellow transparent;
   	.day-four-body {
   		font-size: 31px;
   	}
-  }
+}
 
 
-  @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 780px) {
   	.day-four-text-box {
@@ -1387,7 +1324,7 @@ border-color: transparent transparent yellow transparent;
   	.day-four-atr {
   		font-size: 12px;
   	}
-  }
+}
 
 @media only screen 
   and (min-width: 721px) 
@@ -1422,7 +1359,7 @@ border-color: transparent transparent yellow transparent;
   	.day-five-yellow-rectangle {
   		display: none;
   	}
-  }
+}
   
 
 @media only screen 
@@ -1432,7 +1369,7 @@ border-color: transparent transparent yellow transparent;
   		margin-left: 50px;
   		margin-right: 50px;
   	}
-  }
+}
 
 
 @media only screen 
@@ -1448,9 +1385,9 @@ border-color: transparent transparent yellow transparent;
   	.day-three-red-stripe {
   		display: none;
   	}
-  }
+}
 
-  @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 801px) {
   	.grid-seven {
@@ -1465,9 +1402,9 @@ border-color: transparent transparent yellow transparent;
   		font-size: 16px;
   		margin-left: 10px;
   	}
-  }
+}
 
-   @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 846px) {
   	.day-eight-yellow-circle {
@@ -1479,9 +1416,9 @@ border-color: transparent transparent yellow transparent;
   	#white-eight {
   		margin-right: 370px;
   	}
-  }
+}
 
-   @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 846px) {
   	.day-nine-atr {
@@ -1494,19 +1431,16 @@ border-color: transparent transparent yellow transparent;
 		border-width: 0 80px 130px 80px;
 		border-color: transparent transparent yellow transparent;
 	    margin-bottom: -210px;
+	}
+}
 
-  	}
-  }
-
-
-   @media only screen 
+@media only screen 
   and (min-width: 400px) 
   and (max-width: 846px) {
   	.day-ten-body {
   		font-size: 20px;
   	}
- 
-  }
+ }
 
 
 
