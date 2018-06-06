@@ -1425,5 +1425,29 @@ border-color: transparent transparent yellow transparent;
   }
   
 
+@media only screen 
+  and (min-width: 630px) 
+  and (max-width: 1065px) {
+  	.day-three-z-index {
+  		margin-left: 50px;
+  		margin-right: 50px;
+  	}
+  }
+
+
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 629px) {
+  	.day-three-z-index {
+  		margin-left: 50px;
+  		margin-right: 250px;
+  	}
+  	#day-three-right {
+  		border: none;
+  	}
+  	.day-three-red-stripe {
+  		display: none;
+  	}
+  }
 
 
