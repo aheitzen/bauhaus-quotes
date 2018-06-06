@@ -1389,5 +1389,41 @@ border-color: transparent transparent yellow transparent;
   	}
   }
 
+@media only screen 
+  and (min-width: 721px) 
+  and (max-width: 1020px) {
+  	.big-yellow-circle {
+  		height: 350px;
+  		width: 350px;
+  	}
+  	
+  }
+
+  @media only screen 
+  and (min-width: 400px) 
+  and (max-width: 722px) {
+  	.big-yellow-circle {
+  		height: 350px;
+  		width: 350px;
+  		margin-right: 200px;
+  	}
+  	#day-five-left {
+  		background-color: red;
+  	}
+  	.day-five-light-blue-rectangle {
+  		display: none;
+  	}
+  	.day-five-red-rectangle {
+  		display: none;
+  	}
+  	#day-five-right {
+  		border: none;
+  	}
+  	.day-five-yellow-rectangle {
+  		display: none;
+  	}
+  }
+  
+
 
 
