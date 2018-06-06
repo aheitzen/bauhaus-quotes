@@ -1450,4 +1450,21 @@ border-color: transparent transparent yellow transparent;
   	}
   }
 
+  @media only screen 
+  and (min-width: 400px) 
+  and (max-width: 801px) {
+  	.grid-seven {
+  		display: none;
+  	}
+  	.day-seven-body {
+  		font-size: 40px;
+  		margin-left: 10px;
+  		
+  	}
+  	.day-seven-atr {
+  		font-size: 16px;
+  		margin-left: 10px;
+  	}
+  }
+
 
