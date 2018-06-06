@@ -1062,6 +1062,38 @@ border-color: transparent transparent yellow transparent;
 
 }
 
+.grid-nine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+#day-nine-grid-one {
+	background-color: red;
+	opacity: 0.6;
+	margin-left: 30px;
+}
+
+#day-nine-grid-two {
+	background-color: blue;
+	opacity: 0.4;
+	margin-left: 30px;
+}
+
+#day-nine-grid-three {
+	background-color: yellow;
+	opacity: 0.4;
+	margin-left: 30px;
+}
+
+#day-nine-grid-zero {
+	background-color: white;
+	opacity: 0.4;
+	margin-left: 30px;
+}
+
 
 
 
