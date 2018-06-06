@@ -1459,11 +1459,25 @@ border-color: transparent transparent yellow transparent;
   	.day-seven-body {
   		font-size: 40px;
   		margin-left: 10px;
-  		
+
   	}
   	.day-seven-atr {
   		font-size: 16px;
   		margin-left: 10px;
+  	}
+  }
+
+   @media only screen 
+  and (min-width: 400px) 
+  and (max-width: 846px) {
+  	.day-eight-yellow-circle {
+  		display: none;
+  	}
+  	.day-eight-blue-circle {
+  		display: none;
+  	}
+  	#white-eight {
+  		margin-right: 370px;
   	}
   }
 
