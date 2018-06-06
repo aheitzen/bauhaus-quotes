@@ -974,8 +974,9 @@ font-family: 'Raleway Dots', cursive;*/
 
 .day-eight-atr {
 	font-family: 'Cardo', serif;
-	font-size: 20px;
+	
 	margin: 30px;
+	margin-top: -10px;
 	text-align: center;
 }
 
@@ -1036,8 +1037,33 @@ font-family: 'Raleway Dots', cursive;*/
 }
 
 #day-nine-left {
+	background: linear-gradient(180deg, blue 50%, white 50%);
+}
+
+.day-nine-body {
+	font-family: 'Rokkitt', serif;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.day-nine-atr {
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+.day-nine-yellow-triangle {
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 175px 303.1px 175px;
+border-color: transparent transparent yellow transparent;
+    margin-bottom: -210px;
 
 }
+
+
+
 
 
 
