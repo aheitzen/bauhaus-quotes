@@ -1487,6 +1487,26 @@ border-color: transparent transparent yellow transparent;
   	.day-nine-atr {
   		color: black;
   	}
+  	.day-nine-yellow-triangle {
+	  	width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 80px 130px 80px;
+		border-color: transparent transparent yellow transparent;
+	    margin-bottom: -210px;
+
+  	}
   }
+
+
+   @media only screen 
+  and (min-width: 400px) 
+  and (max-width: 846px) {
+  	.day-ten-body {
+  		font-size: 20px;
+  	}
+ 
+  }
+
 
 
